@@ -2,7 +2,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -11,39 +10,29 @@
     margin: 0 auto;
 }
 
-body {
-    background-image: url(./imagens/cherry_blossom_buds-beauty_spring_desktop_wallpaper_1366x768.jpg);
-}
-
 header .container {
     align-items: center;
     background-color: rgb(249, 74, 255);
     color: rgb(255, 255, 252);
     font-style: italic;
     display: flex;
-    padding: 10px;
+    padding: 10px 10px;
     justify-content: space-between;
 }
 
-.mm {
-    height: 40px;
-    width: 40px;
-}
-
 header h1 {
-    font-size: 50px;
-    max-width: 100%;
-        margin-left: 60px;
-        margin-top: 7px;
+    margin-left: 64px;
+    font-size: 52px;
 }
 
 a {
     color: #fff;
-    margin-right: 10px;
+    margin-right: 22px;
 }
 
 .menu {
     align-items: center ;
+    margin-right: 32px;
     display: flex;
     justify-content: center;
 }
@@ -53,7 +42,6 @@ form {
 }
 
 #sobre img {
-    height: 400px;
     max-width: 400px;
     margin-left: 32px;
     padding: 20px;
@@ -72,13 +60,11 @@ h2 {
 }
 
 #sobre {
-    background-color: #fff;
     display: flex;
     align-items: center;
 }
 
 #produtos {
-    background-color: #fff;
     align-items: center;
     padding: 20px;
 }
@@ -140,7 +126,6 @@ button:hover{
     color: #fff;
 }
 
-
 h4 {
     color:#260347d7;
     background-color: rgb(220, 202, 236);
@@ -172,7 +157,7 @@ footer p {
     text-align: center;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 640px) {
     header .container {
     flex-direction: column;
     align-items: center;
@@ -199,7 +184,6 @@ h3 {
     margin-right: 0;
     justify-content: center;
 }
-
 
 #sobre img {
     align-items: flex-start;
