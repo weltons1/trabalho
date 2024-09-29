@@ -1,0 +1,294 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+body {
+    background-image: url(./imagens/cherry_blossom_buds-beauty_spring_desktop_wallpaper_1366x768.jpg);
+}
+
+header .container {
+    align-items: center;
+    background-color: rgb(249, 74, 255);
+    color: rgb(255, 255, 252);
+    font-style: italic;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.mm {
+    height: 40px;
+    width: 40px;
+}
+
+header h1 {
+    font-size: 50px;
+    max-width: 100%;
+        margin-left: 60px;
+        margin-top: 7px;
+}
+
+a {
+    color: #fff;
+    margin-right: 10px;
+}
+
+.menu {
+    align-items: center ;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    padding: 16px;
+}
+
+#sobre img {
+    height: 400px;
+    max-width: 400px;
+    margin-left: 32px;
+    padding: 20px;
+}
+
+.container2 {
+    padding: 32px;
+    align-items: center;
+    margin-right: 100px;
+}
+
+h2 {
+    color:#260347d7;
+    font-size: 25px;
+    margin-bottom: 16px;
+}
+
+#sobre {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+#produtos {
+    background-color: #fff;
+    align-items: center;
+    padding: 20px;
+}
+
+#produtos h3 {
+    width: 100%;
+    border-bottom: 2px solid #260347d7;
+    margin-bottom: 16px;
+    color: #260347d7;
+    padding-bottom: 16px;
+    margin-left: 30px;
+    margin-right: 0;
+}
+    
+
+article {
+    max-width: 300px;
+    width: 100%;
+    margin-right: 0;
+}
+
+.conteudo {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    margin-left: 42px;
+    margin-right: 0;
+
+}
+
+.conteudo img {
+    height: 350px;
+    max-width: 350px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    margin-right: 0;
+}
+
+.conteudo h4 {
+    margin-bottom: 12px;
+}
+
+.conteudo p {
+    margin-bottom: 8px;
+}
+
+.conteudo button {
+    background-color: #de2aee;
+    color: #fff;
+    padding: 8px;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-bottom: 64px;
+}
+
+button:hover{
+    background-color: #59f566;
+    color: #fff;
+}
+
+
+h4 {
+    color:#260347d7;
+    background-color: rgb(220, 202, 236);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+h5 {
+    background-color: rgb(195, 149, 238);
+    margin-bottom: 8px;
+
+}
+
+footer {
+    background-color: #260347d7;
+}
+
+footer p {
+    color: #ccc;
+    text-align: center;
+}
+
+.final {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+    header .container {
+    flex-direction: column;
+    align-items: center;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+    padding: 0 8px;
+    margin-left: 0;
+}
+
+#sobre {
+    display: block;
+    padding: 0;
+    text-align-last: center;
+    max-width: 100%;
+}
+
+.container2 {
+    align-items: flex-start;
+    padding: 16px;
+    margin-right: 0;
+    justify-content: center;
+}
+
+
+#sobre img {
+    align-items: flex-start;
+    max-width: 80%;
+    text-align-last: left;
+}
+
+#produtos{
+    display: block;
+    padding: 0;
+    align-items: center;
+}
+
+.menu {
+margin-right: 0;
+}
+
+.conteudo {
+grid-template-columns: 1fr;
+padding: 0;
+margin-left: 20px;
+margin-right: 0;
+}
+
+.conteudo img {
+height: auto;
+width: 100%;
+}
+
+#produtos h3 {
+    width: 100%;
+    border-bottom: 2px solid #260347d7;
+    margin-bottom: 16px;
+    color: #260347d7;
+    padding-bottom: 16px;
+    margin-left: 0;
+}
+
+.final {
+    flex-direction: row;
+}
+footer p {
+padding: 0 32px;
+text-align-last: center;
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .container {
+        max-width: 100%;
+        display: flex;
+        flex-direction: row;
+        }
+
+#sobre {
+    display: block;
+}
+
+#sobre img {
+    max-width: 95%;
+}
+#produtos{
+        margin-right: 30px;
+    }
+
+.menu {
+        display: flex;
+
+}
+
+a {
+        color: #ccc;
+        margin-right: 5px;
+    }
+
+.conteudo {
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        margin-left: 42px;
+        margin-right: 10px;
+        align-items: space-between;
+}
+
+.conteudo img {
+    margin-right: 10px;
+    }
+
+.final footer {
+        display: flex;
+        flex-direction: row;
+}
+}
